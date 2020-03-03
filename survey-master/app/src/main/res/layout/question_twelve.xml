@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EFEFEF">
+
+    <!--  Start : Your code should be within this block -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Question 12"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#808080"
+        android:text="How much money do you earn per month?"
+        android:textSize="20sp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="50dp"
+        ></TextView>
+    <RadioGroup
+        android:id="@+id/q12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp">
+        <RadioButton
+            android:id="@+id/q12_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:checked="false"
+            android:text="I haven't got a job"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="85dp"
+            android:theme="@style/MyCheck"
+            ></RadioButton>
+        <RadioButton
+            android:id="@+id/q12_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:checked="false"
+            android:text="under 3000"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="85dp"
+            android:theme="@style/MyCheck"
+            ></RadioButton>
+        <RadioButton
+            android:id="@+id/q12_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:checked="false"
+            android:text="3000-5000"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="85dp"
+            android:theme="@style/MyCheck"
+            ></RadioButton>
+        <RadioButton
+            android:id="@+id/q12_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:checked="false"
+            android:text="5000-10000"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="85dp"
+            android:theme="@style/MyCheck"
+            ></RadioButton>
+        <RadioButton
+            android:id="@+id/q12_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:checked="false"
+            android:text="More than 10000"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="85dp"
+            android:theme="@style/MyCheck"
+            ></RadioButton>
+    </RadioGroup>
+    <Button
+        android:id="@+id/q12_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:checked="false"
+        android:text="NEXT"
+        android:textSize="18sp"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:onClick="Click_q12"
+        ></Button>
+
+    <!-- END    : Your code should be within this block -->
+
+</RelativeLayout>

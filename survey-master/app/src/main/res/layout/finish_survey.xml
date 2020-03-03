@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EFEFEF">
+
+    <!--  Start : Your code should be within this block -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="THANK YOU"
+        android:textSize="33sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="FOUR YOUR ANSWERS!"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        ></TextView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/a"
+        ></ImageView>
+    <Button
+        android:id="@+id/finish_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:checked="false"
+        android:text="FINISH"
+        android:textSize="18sp"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:onClick="Click_finish"
+        ></Button>
+
+    <!-- END    : Your code should be within this block -->
+
+</RelativeLayout>
+
+

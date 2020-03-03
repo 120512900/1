@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EFEFEF">
+
+    <!--  Start : Your code should be within this block -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Question 10"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#808080"
+        android:text="How old are you?"
+        android:textSize="20sp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="50dp"
+        ></TextView>
+    <RadioGroup
+        android:id="@+id/q10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp">
+        <RadioButton
+            android:id="@+id/q10_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:checked="false"
+            android:text="Under 18"
+            android:textSize="18sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="90dp"
+            android:theme="@style/MyCheck"
+            ></RadioButton>
+        <RadioButton
+            android:id="@+id/q10_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:checked="false"
+            android:text="19-25"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="90dp"
+            android:theme="@style/MyCheck"
+            ></RadioButton>
+        <RadioButton
+            android:id="@+id/q10_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:checked="false"
+            android:text="25-35"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="90dp"
+            android:theme="@style/MyCheck"
+            ></RadioButton>
+        <RadioButton
+            android:id="@+id/q10_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:checked="false"
+            android:text="beyond 35"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="90dp"
+            android:theme="@style/MyCheck"
+            ></RadioButton>
+    </RadioGroup>
+    <Button
+        android:id="@+id/q10_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:checked="false"
+        android:text="NEXT"
+        android:textSize="18sp"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:onClick="Click_q10"
+        ></Button>
+
+    <!-- END    : Your code should be within this block -->
+
+</RelativeLayout>
+

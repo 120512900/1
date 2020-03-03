@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EFEFEF">
+
+    <!--  Start : Your code should be within this block -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Question 5"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#808080"
+        android:text="What functions are the most often used?"
+        android:textSize="20sp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="50dp"
+        ></TextView>
+    <CheckBox
+        android:id="@+id/q5_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:checked="false"
+        android:text="Music functions"
+        android:textSize="18sp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="20dp"
+        android:theme="@style/MyCheck"
+        ></CheckBox>
+    <CheckBox
+        android:id="@+id/q5_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:checked="false"
+        android:text="Photo functions"
+        android:textSize="18sp"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="20dp"
+        android:theme="@style/MyCheck"
+        ></CheckBox>
+    <CheckBox
+        android:id="@+id/q5_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:checked="false"
+        android:text="Game functions"
+        android:textSize="18sp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="20dp"
+        android:theme="@style/MyCheck"
+        ></CheckBox>
+    <CheckBox
+        android:id="@+id/q5_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:checked="false"
+        android:text="Bussiness functions(Word,Excel,ect.)"
+        android:textSize="18sp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="20dp"
+        android:theme="@style/MyCheck"
+        ></CheckBox>
+    <CheckBox
+        android:id="@+id/q5_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:checked="false"
+        android:text="GPS functions"
+        android:textSize="18sp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="20dp"
+        android:theme="@style/MyCheck"
+        ></CheckBox>
+    <CheckBox
+        android:id="@+id/q5_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:checked="false"
+        android:text="Data functions(Bluetooth,WLAN,ect.)"
+        android:textSize="18sp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="20dp"
+        android:theme="@style/MyCheck"
+        ></CheckBox>
+    <CheckBox
+        android:id="@+id/q5_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:checked="false"
+        android:text="Others"
+        android:textSize="18sp"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="20dp"
+        android:theme="@style/MyCheck"
+        ></CheckBox>
+    <Button
+        android:id="@+id/q5_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:checked="false"
+        android:text="NEXT"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:onClick="Click_q5"
+        ></Button>
+
+    <!-- END    : Your code should be within this block -->
+
+</RelativeLayout>
+
